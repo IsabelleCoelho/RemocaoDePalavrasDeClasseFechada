@@ -2,7 +2,6 @@ import sys
 import os
 from os import chdir, listdir
 import spacy
-#from spacy.morphology import Morphology
 
 pln = spacy.load('pt_core_news_md')
 classesFechadas = ['ADP', 'AUX', 'CCONJ', 'SCONJ', 'PUNCT', 'PRON', 'DET', 'PART', 'SYM']
